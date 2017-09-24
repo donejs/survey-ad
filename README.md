@@ -1,6 +1,6 @@
 # donejs-survey-ad
 
-[![Build Status](https://travis-ci.org/donejs/donejs-survey-ad.svg?branch=master)](https://travis-ci.org/donejs/donejs-survey-ad)
+[![Build Status](https://travis-ci.org/donejs/survey-ad.svg?branch=master)](https://travis-ci.org/donejs/survey-ad)
 
 Control that advertises the DoneJS survey across CanJS.com, StealJS.com, etc.
 

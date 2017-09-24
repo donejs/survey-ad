@@ -2,7 +2,7 @@
 
 ## Developing Locally
 
-This section will walk you through setting up the [repository](https://github.com/donejs/donejs-survey-ad) on your computer.
+This section will walk you through setting up the [repository](https://github.com/donejs/survey-ad) on your computer.
 
 ### Signing up for GitHub
 
@@ -12,7 +12,7 @@ If you don’t already have a GitHub account, you’ll need to [create a new one
 
 A “fork” is a copy of a repository in your personal GitHub account. “Cloning” is the process of getting the repository’s source code on your computer.
 
-GitHub has a guide for [forking a repo](https://help.github.com/articles/fork-a-repo/). To fork donejs-survey-ad, you can start by going to its [fork page](https://github.com/donejs/donejs-survey-ad/fork).
+GitHub has a guide for [forking a repo](https://help.github.com/articles/fork-a-repo/). To fork donejs-survey-ad, you can start by going to its [fork page](https://github.com/donejs/survey-ad/fork).
 
 Next, you’ll want to clone the repo. [GitHub’s cloning guide](https://help.github.com/articles/cloning-a-repository/) explains how to do this on Linux, Mac, or Windows.
 
