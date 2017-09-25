@@ -1,0 +1,22 @@
+<script type="text/stache" can-autorender>
+  <button>
+    Engage
+  </button>
+</script>
+<script src="./node_modules/steal/steal.js" main="can-view-autorender">
+  import SurveyAdControl from 'donejs-survey-ad';
+  import template from 'donejs-survey-ad/donejs-survey-ad.stache';
+
+  // Append the template to the DOM
+  document.body.appendChild(template());
+
+  // Set up the control
+  const surveyAd = new SurveyAdControl('survey-ad', {
+    addShowingClassToElement: document.body,
+    linkTarget: '_blank'
+  });
+
+  // Listen for button clicks
+  const engageButton = document.body.querySelector('button');
+  engageButton.onclick = () => surveyAd.didEngage();
+</script>

@@ -1,0 +1,41 @@
+survey-ad {
+  background-color: rgba(255, 255, 255, .9);
+  bottom: -3.1rem;// 3 rem + a little bit for the top border
+  left: 0;
+  position: fixed;
+  text-align: center;
+  transition: bottom .25s ease;
+  width: 100%;
+  z-index: 1;
+
+  a {
+    display: block;
+    line-height: 3rem;
+    width: 100%;
+  }
+
+  .close {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    display: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    width: 3rem;
+  }
+
+  &.showing {
+    bottom: 0;
+  }
+
+  @supports (-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px)) {
+		-webkit-backdrop-filter: saturate(180%) blur(20px);
+		-webkit-font-smoothing: subpixel-antialiased;
+		backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255, 255, 255, .85);
+  }
+}
