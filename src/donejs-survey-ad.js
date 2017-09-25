@@ -1,8 +1,8 @@
-import Control from 'can-control';
+var Control = require('can-control');
 
-import './donejs-survey-ad.less';
+require('./donejs-survey-ad.less');
 
-export default Control.extend({
+module.exports = Control.extend({
   defaults: {
     addShowingClassToElement: null,
     engagementCountKey: 'survey-ad-engagement-count',
