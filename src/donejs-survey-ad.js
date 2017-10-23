@@ -2,7 +2,7 @@ var Control = require('can-control');
 
 require('./donejs-survey-ad.less');
 
-module.exports = Control.extend({
+exports.SurveyAd = Control.extend({
   defaults: {
     addShowingClassToElement: null,
     engagementCountKey: 'survey-ad-engagement-count',
