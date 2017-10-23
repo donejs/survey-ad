@@ -1,6 +1,6 @@
 {
   "name": "donejs-survey-ad",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Control that advertises the DoneJS survey across CanJS.com, StealJS.com, etc.",
   "homepage": "https://github.com/donejs/survey-ad",
   "repository": {
